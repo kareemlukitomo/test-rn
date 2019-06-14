@@ -138,6 +138,10 @@ android {
 }
 
 dependencies {
+    implementation project(':react-native-config')
+    implementation project(':appcenter-crashes')
+    implementation project(':appcenter-analytics')
+    implementation project(':appcenter')
     implementation project(':react-native-device-info')
     implementation project(':react-native-i18n')
     implementation project(':react-native-vector-icons')
