@@ -4,7 +4,6 @@ import ReduxNavigation from '../Navigation/ReduxNavigation'
 import { connect } from 'react-redux'
 import StartupActions from '../Redux/StartupRedux'
 import ReduxPersist from '../Config/ReduxPersist'
-import codePush from 'react-native-code-push'
 
 // Styles
 import styles from './Styles/RootContainerStyles'
@@ -32,4 +31,4 @@ const mapDispatchToProps = (dispatch) => ({
   startup: () => dispatch(StartupActions.startup())
 })
 
-export default codePush(connect(null, mapDispatchToProps)(RootContainer))
+export default connect(null, mapDispatchToProps)(RootContainer)
