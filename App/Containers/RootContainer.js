@@ -4,7 +4,6 @@ import ReduxNavigation from '../Navigation/ReduxNavigation'
 import { connect } from 'react-redux'
 import StartupActions from '../Redux/StartupRedux'
 import ReduxPersist from '../Config/ReduxPersist'
-import codePush from 'react-native-code-push'
 
 // Styles
 import styles from './Styles/RootContainerStyles'
@@ -31,7 +30,5 @@ class RootContainer extends Component {
 const mapDispatchToProps = (dispatch) => ({
   startup: () => dispatch(StartupActions.startup())
 })
-
-RootContainer = codePush(RootContainer) // eslint-disable-line no-class-assign
 
 export default connect(null, mapDispatchToProps)(RootContainer)

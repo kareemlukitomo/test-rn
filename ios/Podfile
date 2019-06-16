@@ -1,0 +1,33 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'GitlabMonitorReactNative' do
+  pod 'AppCenter/Analytics', '~> 2.0.1'
+  pod 'AppCenterReactNativeShared', '~> 2.0.0'
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for GitlabMonitorReactNative
+
+  
+
+  platform :ios, '9.0'
+  target 'GitlabMonitorReactNativeTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'GitlabMonitorReactNative-tvOS' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for GitlabMonitorReactNative-tvOS
+
+  target 'GitlabMonitorReactNative-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
