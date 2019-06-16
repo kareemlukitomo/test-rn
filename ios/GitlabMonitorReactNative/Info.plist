@@ -71,5 +71,7 @@
 		<string>SimpleLineIcons.ttf</string>
 		<string>Zocial.ttf</string>
 	</array>
+	<key>CodePushDeploymentKey</key>
+	<string>28c29c08-cac4-43e6-bb8c-c1cf3324b99e</string>
 </dict>
 </plist>
