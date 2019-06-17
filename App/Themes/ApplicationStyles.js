@@ -25,7 +25,8 @@ const ApplicationStyles = {
     },
     section: {
       margin: Metrics.section,
-      padding: Metrics.baseMargin
+      padding: Metrics.baseMargin,
+      textAlign: 'center'
     },
     sectionText: {
       ...Fonts.style.normal,
